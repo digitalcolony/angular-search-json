@@ -1,0 +1,35 @@
+body {
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input {
+  font-weight: 100;
+}
+
+.drop-list {
+  line-height: 100%;
+}
+
+.drop-list .list-group-item {
+  padding: 0.3rem 1.5rem;
+}
+
+.drop-list .list-group-item:first-child {
+  border-top: none;
+  border-radius: 0;
+}
+
+.drop-list .list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.drop-list a {
+  text-decoration: none;
+}
